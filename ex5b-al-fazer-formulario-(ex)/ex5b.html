@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Bootstrap Customizado</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Bootstrap ícones -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    
+    <!-- CSS customizado -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <form class="custom-form">
+          <div class="text-light text-uppercase"><h2>Login</h2></div>
+            <div class="col-sm-6 mb-3">
+                <label for="email" class="form-label">E-mail</label>
+                <div class="input-group">
+                    <span class="input-group-text" id="basic-addon1"><i class="bi bi-envelope"></i></span>
+                    <input type="email" class="form-control custom-input" id="e-mail" aria-describedby="basic-addon1">
+                </div>
+                
+                        <label for="senha" class="form-label">Senha</label>
+                        <div class="input-group">
+                            <span class="input-group-text" id="basic-addon1"><i class="bi bi-lock"></i></span>
+                            <input type="email" class="form-control custom-input" id="e-mail" aria-describedby="basic-addon1">
+                        </div>
+            </div>
+
+            <button type="submit" class="btn btn-light custom-button  bi-arrow-right">Enviar</button>   
+            </div>
+        </form>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
